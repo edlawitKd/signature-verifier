@@ -13,23 +13,6 @@ This project is a **signature verification system** built with Python. It allows
 
 ---
 
-## Project Structure
+## Install dependencies:
 
-sign/
-│
-├─ data/ # Folder for student signature images
-│ ├─ student_01/
-│ │ ├─ genuine/
-│ │ └─ forged/
-│ └─ student_02/ ...
-│
-├─ src/
-│ ├─ dataset.py # Loads and augments dataset
-│ ├─ train.py # Trains the SVM model
-│ ├─ verify.py # Verifies a signature image
-│ ├─ preprocess.py # Preprocessing functions
-│ ├─ features.py # Feature extraction functions
-│ └─ gui_verify.py # Tkinter GUI for verification
-│
-├─ smartsign_model.pkl # Trained SVM model (optional, not in repo)
 Dependencies include: opencv-python, numpy, scikit-learn, Pillow.
